@@ -12,6 +12,15 @@ A feladatleírásban talál egy képletet. A képlet segítségével vegyen fel 
 
 A tesztelendő a tools.js fájlban található függvény.
 
+## Használataba vétel
+
+```cmd
+git clone https://github.com/oktat/tehorseweight
+cd tehorseweight
+npm install
+npm start
+```
+
 ## Licenc
 
 * MIT licenc
