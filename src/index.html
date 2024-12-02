@@ -4,14 +4,49 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sinto Project</title>
+    <title>Ló súlya</title>
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="style.css">        
   </head>
   <body>
-    <div class="container">
-      <h1>Sinto Project</h1>
-      <p>This is a default index.html file, which was created by the sin command.</p>
+    <div class="container bg-light p-3">
+      <h1>Ló súlyának becslése</h1>
+
+      <img src="assets/lo.png" alt="ló mellkasa és hossza"
+      width="100" class="m-2 rounded">
+      
+      <div class="horseForm">
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" 
+          id="chestPerimeter" placeholder
+          >
+          <label for="chestPerimeter"
+          >Mellkas kerülete cm-ben</label>          
+        </div>
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" 
+          id="length" placeholder>
+          <label for="length"
+          class="form-label">Hossz cm-ben</label>
+        </div>        
+      </div>
+      <div>
+        <button id="calcButton"
+        class="btn btn-primary mb-3">Számít</button>
+      </div>
+      <div class="input-group">
+        <label for="weight"
+        class="input-group-prepend">
+        <span class="input-group-text">Súly</span>
+        </label>
+        <input type="text" class="form-control" 
+        id="weight" readonly>
+
+        <div class="input-group-append">
+          <span class="input-group-text">kg</span>
+        </div>
+      </div>      
+
     </div>
     <script type="module" src="app.js"></script>
   </body>
