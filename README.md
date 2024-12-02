@@ -11,3 +11,7 @@ Az alkalmazás a következő feladat megoldása:
 A feladatleírásban talál egy képletet. A képlet segítségével vegyen fel teszteseteket. Végezze el a tesztelést.
 
 A tesztelendő a tools.js fájlban található függvény.
+
+## Licenc
+
+* MIT licenc

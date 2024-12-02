@@ -1,3 +1,13 @@
+/*
+* File: app.js
+* Author: Sallai András
+* Copyright: 2024, Sallai András
+* Group: szit.hu
+* Date: 2024-12-02
+* Github: https://github.com/oktat/tehorseweight/
+* Licenc: MIT
+*/
+
 import { calcWeight } from "./tools.js";
 
 const doc = {
